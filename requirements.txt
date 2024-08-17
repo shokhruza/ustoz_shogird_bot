@@ -1,0 +1,6 @@
+pip~=24.2
+attrs~=23.2.0
+pillow~=10.4.0
+redis~=5.0.4
+aiogram~=3.6.0
+python-dotenv~=1.0.1

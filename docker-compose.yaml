@@ -1,0 +1,9 @@
+services:
+  aiogram_service:
+    build: .
+    env_file: .env
+
+  redis_service:
+    image: redis:alpine
+    ports:
+      -'6379:6379'
